@@ -1,0 +1,314 @@
+EESchema Schematic File Version 4
+LIBS:RS485-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_UART:SN65LBC176D U2
+U 1 1 5CAA592B
+P 5700 2950
+F 0 "U2" H 5450 3300 50  0000 C CNN
+F 1 "SN65HVD72DR" H 6050 3300 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5700 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf" H 7300 2750 50  0001 C CNN
+	1    5700 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L TJ:LAN8742_INT U1
+U 1 1 5CAA5A15
+P 2800 3300
+F 0 "U1" H 3000 4050 50  0000 C CNN
+F 1 "LAN8742_INT" H 3200 3950 50  0000 C CNN
+F 2 "TJ:LAN8742_INT_B" H 2950 3900 50  0001 C CNN
+F 3 "" H 2950 3900 50  0001 C CNN
+	1    2800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5CAA5C63
+P 6100 2500
+F 0 "R4" H 6170 2546 50  0000 L CNN
+F 1 "47k" H 6170 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6030 2500 50  0001 C CNN
+F 3 "~" H 6100 2500 50  0001 C CNN
+	1    6100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5CAA5D41
+P 6200 3400
+F 0 "R5" H 6270 3446 50  0000 L CNN
+F 1 "47k" H 6270 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6130 3400 50  0001 C CNN
+F 3 "~" H 6200 3400 50  0001 C CNN
+	1    6200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5CAA5D8F
+P 6300 3400
+F 0 "R6" H 6370 3446 50  0000 L CNN
+F 1 "47k" H 6370 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6230 3400 50  0001 C CNN
+F 3 "~" H 6300 3400 50  0001 C CNN
+	1    6300 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2850 6450 2850
+Wire Wire Line
+	6100 2650 6100 3150
+Wire Wire Line
+	6100 3150 6000 3150
+Wire Wire Line
+	6100 3150 6450 3150
+Connection ~ 6100 3150
+Wire Wire Line
+	6000 3050 6200 3050
+Wire Wire Line
+	6200 3050 6200 3250
+Wire Wire Line
+	6200 3050 6450 3050
+Connection ~ 6200 3050
+Wire Wire Line
+	6000 2750 6300 2750
+Wire Wire Line
+	6300 2750 6300 3250
+Wire Wire Line
+	6300 2750 6450 2750
+Connection ~ 6300 2750
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 5CAA62E1
+P 6100 2350
+F 0 "#PWR0101" H 6100 2200 50  0001 C CNN
+F 1 "+3V3" H 6115 2523 50  0000 C CNN
+F 2 "" H 6100 2350 50  0001 C CNN
+F 3 "" H 6100 2350 50  0001 C CNN
+	1    6100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CAA6351
+P 6200 3550
+F 0 "#PWR0102" H 6200 3300 50  0001 C CNN
+F 1 "GND" H 6205 3377 50  0000 C CNN
+F 2 "" H 6200 3550 50  0001 C CNN
+F 3 "" H 6200 3550 50  0001 C CNN
+	1    6200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5CAA6377
+P 5700 3350
+F 0 "#PWR0103" H 5700 3100 50  0001 C CNN
+F 1 "GND" H 5705 3177 50  0000 C CNN
+F 2 "" H 5700 3350 50  0001 C CNN
+F 3 "" H 5700 3350 50  0001 C CNN
+	1    5700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3550 6200 3550
+Connection ~ 6200 3550
+$Comp
+L Device:C C1
+U 1 1 5CAA660E
+P 5450 2450
+F 0 "C1" V 5198 2450 50  0000 C CNN
+F 1 "100nF" V 5289 2450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5488 2300 50  0001 C CNN
+F 3 "~" H 5450 2450 50  0001 C CNN
+	1    5450 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0104
+U 1 1 5CAA691D
+P 5700 2350
+F 0 "#PWR0104" H 5700 2200 50  0001 C CNN
+F 1 "+3V3" H 5715 2523 50  0000 C CNN
+F 2 "" H 5700 2350 50  0001 C CNN
+F 3 "" H 5700 2350 50  0001 C CNN
+	1    5700 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2350 5700 2450
+Wire Wire Line
+	5600 2450 5700 2450
+Connection ~ 5700 2450
+Wire Wire Line
+	5700 2450 5700 2550
+$Comp
+L power:GND #PWR0105
+U 1 1 5CAA6D8D
+P 5300 2450
+F 0 "#PWR0105" H 5300 2200 50  0001 C CNN
+F 1 "GND" H 5305 2277 50  0000 C CNN
+F 2 "" H 5300 2450 50  0001 C CNN
+F 3 "" H 5300 2450 50  0001 C CNN
+	1    5300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 5CAA6F7D
+P 2800 2600
+F 0 "#PWR0106" H 2800 2450 50  0001 C CNN
+F 1 "+3V3" H 2815 2773 50  0000 C CNN
+F 2 "" H 2800 2600 50  0001 C CNN
+F 3 "" H 2800 2600 50  0001 C CNN
+	1    2800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SP0502BAJT D1
+U 1 1 5CAA76C9
+P 4200 3100
+F 0 "D1" V 3858 3100 50  0000 C CNN
+F 1 "SP0502BAJT" V 3949 3100 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 4425 3050 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 4325 3225 50  0001 C CNN
+	1    4200 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5CAA77CE
+P 4000 3100
+F 0 "#PWR0107" H 4000 2850 50  0001 C CNN
+F 1 "GND" H 4005 2927 50  0000 C CNN
+F 2 "" H 4000 3100 50  0001 C CNN
+F 3 "" H 4000 3100 50  0001 C CNN
+	1    4000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CAA7AA1
+P 4500 3100
+F 0 "R1" H 4570 3146 50  0000 L CNN
+F 1 "120R" H 4570 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4430 3100 50  0001 C CNN
+F 3 "~" H 4500 3100 50  0001 C CNN
+	1    4500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CAA7B9A
+P 4750 2950
+F 0 "R2" V 4543 2950 50  0000 C CNN
+F 1 "10R" V 4634 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4680 2950 50  0001 C CNN
+F 3 "~" H 4750 2950 50  0001 C CNN
+	1    4750 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CAA7D90
+P 4750 3250
+F 0 "R3" V 4543 3250 50  0000 C CNN
+F 1 "10R" V 4634 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4680 3250 50  0001 C CNN
+F 3 "~" H 4750 3250 50  0001 C CNN
+	1    4750 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 2950 4900 3150
+Wire Wire Line
+	4900 3150 5400 3150
+Wire Wire Line
+	4900 3250 5000 3250
+Wire Wire Line
+	5000 3250 5000 3050
+Wire Wire Line
+	5000 3050 5400 3050
+Wire Wire Line
+	4600 2950 4500 2950
+Wire Wire Line
+	4400 3000 4400 2950
+Wire Wire Line
+	4400 2950 4500 2950
+Connection ~ 4500 2950
+Wire Wire Line
+	4600 3250 4500 3250
+Wire Wire Line
+	4400 3250 4400 3200
+Connection ~ 4500 3250
+Wire Wire Line
+	4500 3250 4400 3250
+Wire Wire Line
+	4400 2950 4400 2900
+Wire Wire Line
+	4400 2900 3900 2900
+Wire Wire Line
+	3900 2900 3900 3050
+Wire Wire Line
+	3900 3050 3400 3050
+Connection ~ 4400 2950
+Wire Wire Line
+	4400 3250 4400 3300
+Wire Wire Line
+	4400 3300 3900 3300
+Wire Wire Line
+	3900 3300 3900 3150
+Wire Wire Line
+	3900 3150 3400 3150
+Connection ~ 4400 3250
+Wire Wire Line
+	2150 3150 2050 3150
+Wire Wire Line
+	2150 3050 2050 3050
+Text GLabel 2050 3150 0    50   Input ~ 0
+R
+Text GLabel 2050 3050 0    50   Input ~ 0
+D
+Wire Wire Line
+	2150 2950 2050 2950
+Wire Wire Line
+	2150 3250 2050 3250
+Text GLabel 2050 3250 0    50   Input ~ 0
+CTS
+Text GLabel 2050 2950 0    50   Input ~ 0
+RTS
+$Comp
+L power:GND #PWR0108
+U 1 1 5CAAB141
+P 2800 4400
+F 0 "#PWR0108" H 2800 4150 50  0001 C CNN
+F 1 "GND" H 2805 4227 50  0000 C CNN
+F 2 "" H 2800 4400 50  0001 C CNN
+F 3 "" H 2800 4400 50  0001 C CNN
+	1    2800 4400
+	1    0    0    -1  
+$EndComp
+Text GLabel 6450 3150 2    50   Input ~ 0
+R
+Text GLabel 6450 2750 2    50   Input ~ 0
+CTS
+Text GLabel 6450 3050 2    50   Input ~ 0
+RTS
+Text GLabel 6450 2850 2    50   Input ~ 0
+D
+$EndSCHEMATC

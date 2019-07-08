@@ -1,0 +1,19 @@
+1N4148WS - https://www.mouser.de/ProductDetail/Vishay-Semiconductors/1N4148WS-HG3-08?qs=sGAEpiMZZMtoHjESLttvkn%252BvjfD1a1SmxQ%252BDfk%252BzeVqBrRG793Zvjg%3D%3D
+micro-usb - https://www.mouser.de/ProductDetail/Molex/47346-0001?qs=%2Fha2pyFaduiJWkclJ6vmoxPm1IDZfDKPxl9YVM5WTkQ%3D
+4.7u 100V - https://www.mouser.de/ProductDetail/Murata-Electronics/GCM32DC72A475KE02L?qs=sGAEpiMZZMs0AnBnWHyRQB9G40cLJQs4%252BsE0l36FYn%252BRYHYE%2FZfeUA%3D%3D
+33uF 16V - https://www.mouser.de/ProductDetail/TDK/C3216JB1C336M160AB?qs=sGAEpiMZZMs0AnBnWHyRQFv7x1xn%252BYFduVCuaC%2FdiSnSvh2RsSbqFg%3D%3D
+MCP16331T - https://www.mouser.de/ProductDetail/Microchip-Technology/MCP16331T-E-CH?qs=sGAEpiMZZMsF1ODjcwEocDJOAjoR2UmipM2JEOf5XoI%3D
+LDO - https://www.mouser.de/ProductDetail/Diodes-Incorporated/AP7363-33D-13?qs=sGAEpiMZZMsGz1a6aV8DcBz75iW3cahYH%2FizBYwPxEY%3D
+U.FL - https://www.mouser.de/ProductDetail/Linx-Technologies/CONUFL001-SMD?qs=sGAEpiMZZMve4%2FbfQkoj%252BPOUevSQI8Fs7xfYkb61iC8=
+MCP23S17 - https://www.mouser.de/ProductDetail/Microchip-Technology/MCP23S17-E-SS?qs=sGAEpiMZZMuFG5L82Zqpsv%2Foit1hbM7T2NtyUsphok8%3D
+MP4559 - https://www.mouser.de/ProductDetail/Monolithic-Power-Systems-MPS/MP4559DN-LF-Z?qs=sGAEpiMZZMtitjHzVIkrqYbz8Ik9zt6w6daqMpIvIIo%3D
+TESCO-LIV3F - https://www.mouser.de/ProductDetail/STMicroelectronics/TESEO-LIV3F?qs=HXFqYaX1Q2wXp9tn7dEmMw%3D%3D
+SPBTLE-RF0TR - https://www.mouser.de/ProductDetail/?qs=HXFqYaX1Q2zftPxeR%2FvzTQ%3D%3D
+TL3305A - https://www.mouser.de/ProductDetail/E-Switch/TL3305AF160QG?qs=sGAEpiMZZMsgGjVA3toVBKeJCRa1nG8XfnikbYevDuU%3D
+RK-09K1130A5R - https://www.mouser.de/ProductDetail/ALPS/RK09K1130A5R?qs=sGAEpiMZZMtC25l1F4XBU3JeeCo7XMTlEtsTbzspqEg%3D
+WÜRTH RGB_LED - https://www.mouser.de/ProductDetail/Wurth-Electronics/150066M153000?qs=sGAEpiMZZMuCm2JlHBGefutc4sI%252BRg9%2Fbs1YpFs6g6dKS2Ht%252BHB8Wg%3D%3D
+MCP2561-E/SN - https://www.mouser.de/ProductDetail/Microchip-Technology/MCP2561-E-SN?qs=sGAEpiMZZMsGqoCZrYwANiyhCBJiqvV6Alu0VKtisvc%3D
+IS25LP016D-JLLE - https://www.mouser.de/ProductDetail/ISSI/IS25LP016D-JLLE?qs=sGAEpiMZZMtI%252BQ06EiAoG4%252BhDIVn9lGK%252BHSpkQEbLHY%3D
+STM32F437VIT7 - https://www.mouser.de/ProductDetail/STMicroelectronics/STM32F437VIT7?qs=sGAEpiMZZMuoKKEcg8mMKOzUP3rat23FkxPeWzZTSNGzMxJboNirwQ==
+JXD1-0007NL - https://www.mouser.de/ProductDetail/Pulse-Electronics/JXD1-0007NL?qs=%2Fha2pyFaduiJ1pJsE3nAPFeW5Thz9R08pQQmj5dAiMNiizHalJZqcw==
+

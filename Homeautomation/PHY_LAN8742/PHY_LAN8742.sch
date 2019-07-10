@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:LAN8742_PHY-cache
+LIBS:PHY_LAN8742-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268

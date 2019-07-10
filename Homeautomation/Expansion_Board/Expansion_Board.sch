@@ -107,7 +107,7 @@ F 3 "" H 4850 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TJ:HA_MAIN_IF X1
+L Expansion_Board-rescue:HA_MAIN_IF-TJ X1
 U 1 1 5C9D4ADF
 P 800 1200
 F 0 "X1" H 831 1875 50  0000 C CNN
